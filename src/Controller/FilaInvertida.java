@@ -12,7 +12,6 @@ public class FilaInvertida {
 
     public void FilaLInvertida(Lista listaL){
         int cont= 0;
-        int aux;
         for (int i=0; i<11; i++){
             try {
                 listaL.add(listaL.removeLast(), cont);
